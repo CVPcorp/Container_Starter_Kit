@@ -1,0 +1,66 @@
+version: '3'
+services:
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=pgadmin@cvpcorp.com
+      - PGADMIN_DEFAULT_PASSWORD=password
+    ports:
+      - '80:80'
+  database:
+    image: 'postgres:latest'
+    environment:
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+  posts-api:
+    depends_on:
+      - database
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./posts-api
+    volumes:
+      - /app/node_modules
+      - ./posts-api:/app
+    environment:
+      - PG_HOST=database
+      - PG_PORT=5432
+      - PG_USER=postgres
+      - PG_PASSWORD=password
+      - PG_DATABASE=postgres
+    ports:
+      - '4000:4000'
+  tasks-api:
+    depends_on:
+      - database
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./tasks-api
+    volumes:
+      - /app/node_modules
+      - ./tasks-api:/app
+    environment:
+      - PG_HOST=database
+      - PG_PORT=5432
+      - PG_USER=postgres
+      - PG_PASSWORD=password
+      - PG_DATABASE=postgres
+    ports:
+      - '5000:5000'
+  webapp:
+    depends_on:
+      - posts-api
+      - tasks-api      
+    stdin_open: true
+    build:
+      dockerfile: Dockerfile.dev
+      context: ./app
+    volumes:
+      - /app/node_modules
+      - ./app:/app
+    ports:
+      - '3000:3000'
+volumes:
+  pgdata:
