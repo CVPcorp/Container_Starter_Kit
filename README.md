@@ -38,10 +38,10 @@ These instructions will get you a copy of the project up and running on your loc
 
     ```shell
     # If using SSH
-    git clone git@gitlab.cvpcorp.com:cvp/bootcamps/bootcamp-starter-kit.git
+    git clone git@github.com:CVPcorp/Container_Starter_Kit.git
     
     # If using HTTPS
-    git clone https://gitlab.cvpcorp.com/cvp/bootcamps/bootcamp-starter-kit.git
+    git clone https://github.com/CVPcorp/Container_Starter_Kit.git
     ```
 
 3. Navigate to the root project directory
