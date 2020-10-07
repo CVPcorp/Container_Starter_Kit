@@ -138,20 +138,10 @@ The application is now running in a container and can be debugged from Chrome.
 #### Common Issues with Docker:
 
 * Access denied when trying to use Docker commands:
-    * Run Docker as administrator.
-        * If you do not have admin privileges, submit a [Mojo Ticket](https://cvpcorp.mojohelpdesk.com/) requesting admin permissions.
-    * Windows:
-        * Make sure you are connected to the CVP VPN.
-        * In Computer Management, find "Local Users and Groups."
-        * Select "docker-users" and add your User to the group.
-        * Restart your computer.
- 
+    * Run Docker as administrator. 
     
 * Not enough memory to run Docker:
     * It is recommended that you run Docker on a device with at least 16GB of RAM.
-    * You can request an upgrade by submitting a [Mojo Ticket](https://cvpcorp.mojohelpdesk.com/).
-
-
 
 ## Built With
 
