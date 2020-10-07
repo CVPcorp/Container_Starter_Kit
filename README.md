@@ -4,7 +4,7 @@
 
 # New Hire Starter-Kit
 
-The purpose of this project is to introduce developers to Docker. It demonstrates the use of `Docker Desktop` and how it can increase software developer productivity, quickly and easily containerize applications, and include DevOps as a standard practice from the beginning of a project.
+The purpose of this project is to introduce developers to containers. It demonstrates the use of `Docker Desktop` and how it can increase software developer productivity, quickly and easily containerize applications, and include DevOps as a standard practice from the beginning of a project.
 
 ##### This project consists of the following components...
 * PostgreSql Database
