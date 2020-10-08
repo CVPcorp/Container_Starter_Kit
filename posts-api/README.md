@@ -1,4 +1,4 @@
-# `College Hire Bootcamp ExpressJS Starter API`
+# `Container Starter Kit ExpressJS Starter API`
 
 ## Available Scripts
 
