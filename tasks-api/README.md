@@ -1,4 +1,4 @@
-# `College Hire Bootcamp NestJS Starter API`
+# `Container Starter Kit NestJS Starter API`
 
 ## Available Scripts
 
