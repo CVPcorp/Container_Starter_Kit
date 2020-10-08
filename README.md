@@ -2,7 +2,7 @@
   <a href="https://www.cvpcorp.com/" target="blank"><img src="./CVP_Logo.png" width="360" alt="CVP Logo"/></a>
 </p>
 
-# New Hire Starter-Kit
+# Container Starter Kit
 
 The purpose of this project is to introduce developers to containers. It demonstrates the use of `Docker Desktop` and how it can increase software developer productivity, quickly and easily containerize applications, and include DevOps as a standard practice from the beginning of a project.
 
