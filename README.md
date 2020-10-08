@@ -149,7 +149,3 @@ The application is now running in a container and can be debugged from Chrome.
 * [NestJS](https://nestjs.com/) - Taks-API
 * [Express](https://expressjs.com/) - Posts-API
 
-## Authors
-
-* **Jason Whitehead** - *Initial work* 
-
