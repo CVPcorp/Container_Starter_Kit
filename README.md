@@ -47,7 +47,7 @@ These instructions will get you a copy of the project up and running on your loc
 3. Navigate to the root project directory
 
     ```
-    cd bootcamp-starter-kit
+    cd Container_Starter_Kit
     ```
 
 4. Run docker-compose
