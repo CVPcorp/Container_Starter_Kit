@@ -17,7 +17,7 @@ export class PingController {
   ping() {
     return {
       status: 'UP',
-      message: 'College Hire Bootcamp Tasks API is up & running!'
+      message: 'Tasks API is up & running!'
     };
   }
 }

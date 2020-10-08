@@ -1,0 +1,13 @@
+.Posts {
+  margin: 30px;  
+}
+
+.NewPost {
+  width: 750px;
+}
+
+.NewPost input,
+.NewPost Button,
+.NewPost textarea {
+  margin-bottom: 10px;
+}

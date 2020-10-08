@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.get('/api', async (req, res) => {
   res.status(200).json({
     status: 'UP',
-    message: 'College Hire Bootcamp Posts API is up & running!'
+    message: 'Posts API is up & running!'
   });
 });
 

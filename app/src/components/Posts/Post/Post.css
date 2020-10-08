@@ -1,0 +1,24 @@
+.Post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px grey;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Post button {
+  margin: 20px;
+  width: 100px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: darkred;
+}
+
+.Post button:hover {
+  font-weight: bolder;
+  background-color: rgb(220, 0, 0);
+}

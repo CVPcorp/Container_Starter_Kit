@@ -1,0 +1,13 @@
+.Tasks {
+  margin: 30px;  
+}
+
+.NewTask {
+  width: 750px;
+}
+
+.NewTask input,
+.NewTask Button,
+.NewTask textarea {
+  margin-bottom: 10px;
+}
