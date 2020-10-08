@@ -1,4 +1,4 @@
-# `College Hire Bootcamp React Starter App`
+# `Container Starter Kit React Starter App`
 
 ## `Available Scripts`
 
