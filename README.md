@@ -146,6 +146,6 @@ The application is now running in a container and can be debugged from Chrome.
 ## Built With
 
 * [React](https://reactjs.org/) - Front-End UI
-* [NestJS](https://nestjs.com/) - Taks-API
+* [NestJS](https://nestjs.com/) - Tasks-API
 * [Express](https://expressjs.com/) - Posts-API
 
